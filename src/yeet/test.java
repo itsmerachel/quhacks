@@ -26,9 +26,8 @@ public class test extends PApplet{
     public void loop(){
         text("proof", 500, 500);
         for(int i =0;i<tool.randarray().length;i++){ //something something Cory Scaffolding
-            fill((i+1)*36, 70, 70);
+            fill((i+1)*36, 90, 90);
             ellipse(i*40,i*40,tool.randarray()[i],tool.randarray()[i]);
-            System.out.println(i);
             redraw();
         }
 
