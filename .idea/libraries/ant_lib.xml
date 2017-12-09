@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ant_lib">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/org.ogre4j_1.6.2-beta6-src/ant_lib/ant-contrib-1.0b3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/org.ogre4j_1.6.2-beta6-src/ant_lib/cpptasks-1.0.0.b4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
