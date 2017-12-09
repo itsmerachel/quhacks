@@ -1,6 +1,7 @@
 package yeet;
 
 import processing.core.PApplet;
+import java.lang.Math;
 
 public class test extends PApplet{
     RanGen tool = new RanGen();
@@ -19,8 +20,11 @@ public class test extends PApplet{
     }
 
     public void draw(){
-        text("yes",8,8);
-        ellipse(100,100,80,95);
+        noStroke();
+        for(int i=1; i < 360; i++){
+            fill(i,90,90);
+            ellipse(i*2,200, 30,30);
+        }
     }
 
     public void loop(){
@@ -33,7 +37,7 @@ public class test extends PApplet{
 
     }
     public void mousePressed(){
-        text("fuCKING",400,100);
+        text("",400,100);
         loop();
     }
 }
