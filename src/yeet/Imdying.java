@@ -1,9 +1,13 @@
 package yeet;
 import processing.core.PApplet;
 
+import java.util.Arrays;
+
 public class Imdying extends PApplet {
     public static void main(String[] args) {
         PApplet.main("yeet.Imdying");
+        RanGen sam = new RanGen();
+        System.out.println(Arrays.toString(sam.randarray()));
     }
 
     public void settings() {
@@ -16,14 +20,6 @@ public class Imdying extends PApplet {
 
     public void draw() {
         ellipse(width / 2, height / 2, second(), second());
-        int a = 0;
-
-        RanGen sam = new RanGen();
-        sam.what();
-    }
-
-
-
-
+        }
 }
 
