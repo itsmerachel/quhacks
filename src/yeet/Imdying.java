@@ -1,10 +1,9 @@
 package yeet;
 import processing.core.PApplet;
-import java.util.Random;
 
 public class Imdying extends PApplet {
     public static void main(String[] args) {
-        PApplet.main("Imdying");
+        PApplet.main("yeet.Imdying");
     }
 
     public void settings() {
